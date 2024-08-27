@@ -28,6 +28,11 @@
     src: url(./assets/fonts/Quantify.ttf);
 }
 
+@font-face {
+    font-family: interBold;
+    src: url(./assets/fonts/Inter_28pt-ExtraBold.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -68,4 +73,86 @@ a{
     flex-direction: column;
     gap: 30px;
     align-items: center;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 10px 50px;
+    height: 80px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img{
+    width: 70px;
+}
+
+.logo img:first-child{
+    animation: move 2s infinite ease alternate;
+}
+
+@keyframes move {
+    /* from{
+        transform: translateY(-10px);
+    }
+    from{
+        transform: translateY(10px);
+    } */
+    0%{
+        transform: rotate(30deg);
+    }
+    100%{
+        transform: rotate(-30deg);
+    }
+    /* from{
+        transform: skewY(30deg);
+    }
+    from{
+        transform: skewY(-30deg);
+    } */
+}
+
+.logo-name{
+    font-size: 20px;
+    font-family: interBold;
+    color: var(--brown);
+}
+
+.nav-links{
+    display: flex;
+    width: 30vw;
+    align-items: center;
+    justify-content: space-between;
+    font-family: ralewayMid;
+    font-size: 16px;
+    /* text-transform: capitalize; */
+}
+
+.nav-links a .current{
+    font-family: ralewayBold;
+    color: var(--orange);
+}
+
+.nav-links a p{
+    color: var(--text-gray);
+}
+
+.contact button{
+    border: none;
+    outline: none;
+    width: 170px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    font-family: ralewayBold;
+    background: var(--brown);
+    text-transform: capitalize;
 }
