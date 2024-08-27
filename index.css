@@ -249,3 +249,7 @@ a{
     width: 40vw;
     display: inline-block;
 }
+
+.vision{
+    border: 2px solid red;
+}
