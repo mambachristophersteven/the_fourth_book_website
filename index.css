@@ -156,3 +156,96 @@ a{
     background: var(--brown);
     text-transform: capitalize;
 }
+
+.hero{
+    background: url(./assets/images/hero-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    /* background-attachment: fixed; */
+    /* border: 2px solid red; */
+    width: 100vw;
+    padding: 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero .hero-left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 50vw;
+    min-height: 70vh;
+}
+
+.hope{
+    font-family: quantify;
+    text-transform: capitalize;
+    font-size: 16px;
+    padding: 5px;
+    background: #E6E6E6;
+    width: fit-content;
+    color: var(--green);
+    border-radius: 5px;
+}
+
+.main{
+    font-family: quantify;
+    font-size: 100px;
+    color: var(--brown);
+    text-transform: capitalize;
+    /* width: 80%; */
+}
+
+.sub{
+    font-family: ralewayMid;
+    font-size: 22px;
+    width: 60%;
+    color: var(--text-gray);
+}
+
+.hero button{
+    border: none;
+    outline: none;
+    width: 170px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    font-family: ralewayBold;
+    background: var(--brown);
+    text-transform: capitalize;
+}
+
+.facts{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.facts >div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.fact .fact-main{
+    color: var(--orange);
+    font-family: ralewayBold;
+    text-transform: capitalize;
+    font-size: 36px;
+}
+
+.fact .fact-sub{
+    color: var(--orange);
+    font-family: ralewayBold;
+    text-transform: capitalize;
+    font-size: 19px;
+}
+
+.hero .hero-right img{
+    width: 40vw;
+    display: inline-block;
+}
