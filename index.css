@@ -1,7 +1,32 @@
-/* @font-face {
-    font-family: opensans;
-    src: url(../assets/fonts/OpenSans-Regular.ttf);
-} */
+@font-face {
+    font-family: raleway;
+    src: url(./assets/fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: ralewayMid;
+    src: url(./assets/fonts/Raleway-Medium.ttf);
+}
+
+@font-face {
+    font-family: ralewayBold;
+    src: url(./assets/fonts/Raleway-Bold.ttf);
+}
+
+@font-face {
+    font-family: ralewayXBold;
+    src: url(./assets/fonts/Raleway-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: ralewaySemi;
+    src: url(./assets/fonts/Raleway-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: quantify;
+    src: url(./assets/fonts/Quantify.ttf);
+}
 
 *{
     margin: 0;
@@ -24,10 +49,11 @@ a{
 }
 
 :root{
-    --primary-color: rgba(214, 53, 53, 1);
-    --secondary-color: rgba(241, 220, 219, 1);
-    --white-color: #fff;
-    --gray-color: rgba(88, 88, 88, 1);
+    --brown: #571217;
+    --orange: #F38218;
+    --green: #1A760D;
+    --yellow: #F8B735;
+    --text-gray: #7D7D7D;
 }
 
 .container{
