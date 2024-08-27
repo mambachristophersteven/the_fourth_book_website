@@ -100,7 +100,7 @@ a{
     from{
         transform: translateY(10px);
     } */
-     
+
     0%{
         transform: rotate(30deg);
     }
@@ -160,7 +160,6 @@ a{
     background-size: cover;
     background-repeat: no-repeat; 
     /* background-attachment: fixed; */
-    /* border: 2px solid red; */
     width: 100vw;
     padding: 10px 50px;
     display: flex;
