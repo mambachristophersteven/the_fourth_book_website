@@ -100,13 +100,14 @@ a{
     from{
         transform: translateY(10px);
     } */
+     
     0%{
         transform: rotate(30deg);
     }
     100%{
         transform: rotate(-30deg);
     }
-    
+
     /* from{
         transform: skewY(30deg);
     }
