@@ -798,6 +798,10 @@ form input[type=submit]{
     justify-content: space-between;
     align-items: center;
     padding: 10px 50px;
+    background: url(./assets/images/approach-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
 }
 
 .app-left{
@@ -805,4 +809,8 @@ form input[type=submit]{
     flex-direction: column;
     align-items: flex-start;
     gap: 30px;
+}
+
+.app-right img{
+    width: 36vw;
 }
