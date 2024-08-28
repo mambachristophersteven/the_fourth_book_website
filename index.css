@@ -369,3 +369,48 @@ a{
     color: #7A7A7A;
     text-transform: capitalize;
 }
+
+.motto{
+    width: 100vw;
+    padding: 10px 50px;
+}
+
+.motto-content{
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    background: url(./assets/images/motto-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    border-radius: 20px;
+}
+
+.white-mini-heading{
+    width: fit-content;
+    padding: 10px 40px;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-family: raleway;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: white;
+}
+
+.white-maxi-heading{
+    font-family: quantify;
+    font-size: 80px;
+    text-transform: capitalize;
+    color: white;
+}
+
+.white-macro-heading{
+    font-family: ralewayBold;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: white;
+}
