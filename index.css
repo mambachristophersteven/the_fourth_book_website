@@ -63,22 +63,22 @@ a{
 
 .orange{
     color: var(--orange);
-    font-family: ralewayBold;
+    font-family: ralewayXBold;
 }
 
 .brown{
     color: var(--brown);
-    font-family: ralewayBold;
+    font-family: ralewayXBold;
 }
 
 .green{
     color: var(--green);
-    font-family: ralewayBold;
+    font-family: ralewayXBold;
 }
 
 .yellow{
     color: var(--yellow);
-    font-family: ralewayBold;
+    font-family: ralewayXBold;
 }
 
 .container{
@@ -309,4 +309,63 @@ a{
     color: var(--text-gray);
     text-align: center;
     width: 60%;
+}
+
+.mission{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 10px 50px;
+    background: url(./assets/images/mission-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.mission-left img{
+    width: 40vw;
+}
+
+.mission-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 30px;
+}
+
+.mission-right .headings{
+    align-items: flex-end;
+}
+
+.mission-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.mission-text .section-text{
+    text-align: right;
+}
+
+.checks{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.check{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.check-text{
+    font-family: ralewayBold;
+    font-size: 22px;
+    color: #7A7A7A;
+    text-transform: capitalize;
 }
