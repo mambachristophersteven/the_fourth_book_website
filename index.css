@@ -472,3 +472,97 @@ a{
     font-size: 19px;
 }
 
+.value1 .value-name{
+    color: var(--orange);
+}
+
+.value2 .value-name{
+    color: var(--brown);
+}
+
+.value3 .value-name{
+    color: var(--green);
+}
+
+.value4 .value-name{
+    color: var(--yellow);
+}
+
+.approaching{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 50px;
+    gap: 30px;
+    background: url(./assets/images/approach-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    width: 100vw;
+}
+
+.approaches-boxes{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.two-approach{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.two-approach >div{
+    width: 45%;
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 35px;
+    background: white;
+    border-radius: 15px;
+    background: url(./assets/images/approach-box-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    box-shadow : 0px 0px 10px 5px  rgba(0,0,0,0.16);
+}
+
+.approach .approach-top{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.approach .approach-top img{
+    width: 45px;
+}
+
+.approach .approach-top .approach-name{
+    font-size: 30px;
+    font-family: quantify;
+    text-transform: capitalize;
+}
+
+.approach1{
+    color: var(--green);
+}
+
+.approach2{
+    color: var(--orange);
+}
+
+.approach3{
+    color: var(--yellow);
+}
+
+.approach4{
+    color: var(--brown);
+}
+
+
