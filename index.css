@@ -682,7 +682,6 @@ a{
 
 .contact-right{
     width: 60vw;
-    border: 2px solid blue;
     min-height: inherit;
     background: url(./assets/images/contact-right-bg.png);
     background-position: center;
