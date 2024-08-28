@@ -630,7 +630,6 @@ a{
 }
 
 .details{
-    border: 2px solid green;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -652,12 +651,6 @@ a{
     flex-direction: column;
     gap: 3px;
     align-items: flex-start;
-}
-
-.contact-right{
-    width: 60vw;
-    border: 2px solid blue;
-    min-height: inherit;
 }
 
 .detail-text{
@@ -685,4 +678,81 @@ a{
     font-size: 28px;
     color: var(--brown);
     text-transform: capitalize;
+    margin-top: 20px;
 }
+
+.contact-right{
+    width: 60vw;
+    border: 2px solid blue;
+    min-height: inherit;
+    background: url(./assets/images/contact-right-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px 80px;
+}
+
+.contact-right-headings{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.main-right-heading{
+    font-family: quantify;
+    font-size: 58px;
+    color: white;
+    text-transform: capitalize;
+}
+
+.sub-right-heading{
+    font-family: quantify;
+    font-size: 26px;
+    color: var(--orange);
+    text-transform: capitalize;
+}
+
+form{
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+    width: 100%;
+}
+
+.two-input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 22vw;
+    height: 60px;
+    border: 1px solid #E2E2E2;
+    justify-content: space-between;
+    border-radius: 30px;
+}
+
+input{
+    height: inherit;
+    width: 90%;
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-family: ralewayBold;
+    font-size: 18px;
+    color: #d3d3d3;
+    background: transparent;
+}
+
