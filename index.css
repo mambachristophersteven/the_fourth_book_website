@@ -61,6 +61,26 @@ a{
     --text-gray: #7D7D7D;
 }
 
+.orange{
+    color: var(--orange);
+    font-family: ralewayBold;
+}
+
+.brown{
+    color: var(--brown);
+    font-family: ralewayBold;
+}
+
+.green{
+    color: var(--green);
+    font-family: ralewayBold;
+}
+
+.yellow{
+    color: var(--yellow);
+    font-family: ralewayBold;
+}
+
 .container{
     min-height: 100vh;
     width: 100vw;
@@ -190,7 +210,6 @@ a{
     font-size: 100px;
     color: var(--brown);
     text-transform: capitalize;
-    /* width: 80%; */
 }
 
 .sub{
@@ -246,5 +265,48 @@ a{
 }
 
 .vision{
-    border: 2px solid red;
+    width: 100vw;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    background: url(./assets/images/vision-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    padding: 30px 50px;
+    align-items: center;
+    gap: 30px;
+}
+
+.headings{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+}
+
+.headings .mini-heading{
+    width: fit-content;
+    padding: 10px 40px;
+    border: 1px solid var(--brown);
+    border-radius: 50px;
+    font-family: raleway;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.headings .maxi-heading{
+    font-size: 56px;
+    text-transform: capitalize;
+    font-family: quantify;
+    color: var(--brown);
+}
+
+.section-text{
+    font-size: 22px;
+    font-family: ralewayMid;
+    color: var(--text-gray);
+    text-align: center;
+    width: 60%;
 }
