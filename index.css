@@ -811,6 +811,13 @@ form input[type=submit]{
     gap: 30px;
 }
 
+.app-content{
+    display: flex;flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    text-align: left;
+}
+
 .app-right img{
     width: 36vw;
 }
