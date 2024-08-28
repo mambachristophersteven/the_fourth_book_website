@@ -818,6 +818,12 @@ form input[type=submit]{
     text-align: left;
 }
 
+.app-content .checks{
+    border: 2px solid red;
+    text-align: left;
+    align-items: flex-start;
+}
+
 .app-right img{
     width: 36vw;
 }
