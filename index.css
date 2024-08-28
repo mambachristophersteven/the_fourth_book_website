@@ -790,3 +790,19 @@ form input[type=submit]{
     color: var(--brown);
     text-transform: capitalize;
 }
+
+.app{
+    border: 2px solid red;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.app-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
