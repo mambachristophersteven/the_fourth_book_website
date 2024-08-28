@@ -161,7 +161,7 @@ a{
     color: var(--text-gray);
 }
 
-.contact button{
+.contact-btn button{
     border: none;
     outline: none;
     width: 170px;
@@ -592,7 +592,6 @@ a{
 }
 
 .contact{
-    border: 2px solid red;
     width: 100vw;
     padding: 10px 50px;
     display: flex;
