@@ -149,7 +149,6 @@ a{
     justify-content: space-between;
     font-family: ralewayMid;
     font-size: 16px;
-    /* text-transform: capitalize; */
 }
 
 .nav-links a .current{
