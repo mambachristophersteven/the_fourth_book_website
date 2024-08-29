@@ -962,6 +962,12 @@ form input[type=submit]{
         font-size: 18px;
         padding: 8px 30px;
     }
+    .headings .maxi-heading{
+        font-size: 52px;
+    }
+    .section-text{
+        font-size: 19px;
+    }
 }
 
 
