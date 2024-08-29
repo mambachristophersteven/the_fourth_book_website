@@ -968,6 +968,9 @@ form input[type=submit]{
     .section-text{
         font-size: 19px;
     }
+    .check-text{
+        font-size: 18px;
+    }
 }
 
 
