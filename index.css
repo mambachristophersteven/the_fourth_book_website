@@ -861,3 +861,45 @@ form input[type=submit]{
 .app-buttons a button img{
     width: 30px;
 }
+
+.footer{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    gap: 30px;
+}
+
+.footer-top img{
+    width: 20vw;
+}
+
+.footer-bottom{
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer-links{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-links p{
+    font-family: ralewayMid;
+    font-size: 18px;
+    color: #9C9C9C;
+    text-transform: capitalize;
+}
+
+.socials{
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
