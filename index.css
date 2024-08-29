@@ -872,21 +872,20 @@ form input[type=submit]{
 }
 
 .footer-top img{
-    width: 20vw;
+    width: 15vw;
 }
 
 .footer-bottom{
-    border: 2px solid red;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    width: 80%;
 }
 
 .footer-links{
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
 }
 
 .footer-links p{
@@ -897,9 +896,15 @@ form input[type=submit]{
 }
 
 .socials{
-    width: 20vw;
+    width: 11vw;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 7px;
 }
 
+.copyright{
+    font-family: ralewayMid;
+    font-size: 18px;
+    color: #9C9C9C;
+    text-transform: capitalize;
+}
