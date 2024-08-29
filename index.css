@@ -815,7 +815,8 @@ form input[type=submit]{
 }
 
 .app-content{
-    display: flex;flex-direction: column;
+    display: flex;
+    flex-direction: column;
     align-items: flex-start;
     gap: 20px;
     text-align: left;
@@ -832,4 +833,31 @@ form input[type=submit]{
 
 .app-right img{
     width: 36vw;
+}
+
+.app-buttons{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.app-buttons a button{
+    border: none;
+    outline: none;
+    width: 170px;
+    height: 55px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    font-family: ralewayBold;
+    background: var(--brown);
+    text-transform: capitalize;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-buttons a button img{
+    width: 30px;
 }
