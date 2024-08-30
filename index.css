@@ -1020,18 +1020,44 @@ form input[type=submit]{
         font-size: 25px;
     }
     .main-right-heading{
-    font-size: 55px;
+        font-size: 55px;
     }
     .sub-right-heading{
-    font-size: 23px;
+        font-size: 23px;
     }
     .input{
-    height: 45px;
+        height: 45px;
     }
     input{
-    font-size: 16px;
+        font-size: 16px;
     }
     .input img{
+        width: 20px;
+    }
+    .one-input .input textarea{
+        font-size: 16px;
+    }
+    form input[tyoe-submit]{
+        width: 140px;
+        height: 40px;
+        font-size: 16px;
+
+    }
+    .app-buttons a button{
+        width: 140px;
+        height: 45px;
+        font-size: 15px;
+    }
+    .app-buttons a button img{
+        width: 20px;
+    }
+    .footer-links p{
+        font-size: 16px;
+    }
+    .copyright{
+        font-size: 16px;
+    }
+    .socials img{
         width: 20px;
     }
 
