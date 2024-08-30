@@ -911,11 +911,8 @@ form input[type=submit]{
 }
 
 @media screen and (max-width: 1370px){
-    .container{
-        border: 2px solid red;
-    }
     .container >div{
-        padding: 10px 30px;
+        padding: 10px 40px;
     }
     .logo img{
         width: 50px;
@@ -951,9 +948,6 @@ form input[type=submit]{
     }
     .fact .fact-sub{
         font-size: 16px;
-    }
-    .vision{
-        border: 2px solid red;
     }
     .headings{
         gap: 10px;
@@ -1064,6 +1058,10 @@ form input[type=submit]{
 }
 
 
-@media screen and (max-width: 1200px){}
+@media screen and (max-width: 1200px){
+    .container > div{
+        border: 2px solid red;
+    }
+}
 
 @media screen and (max-width: 768px){}
