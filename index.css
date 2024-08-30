@@ -669,6 +669,7 @@ a{
     font-size: 23px;
     font-family: ralewayXbold;
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .contact-quote{
@@ -1000,6 +1001,40 @@ form input[type=submit]{
     .approach-text{
         font-size: 17px;
     }
+    .contact-left-top{
+        gap: 30px;
+    }
+    .contact-left-top .heading{
+    font-size: 33px;
+    }
+    .detail-text{
+    font-size: 18px;
+    }
+    .more-info{
+    font-size: 19px;
+    }
+    .more-info span{
+        font-size: 20px;
+    }
+    .contact-quote{
+        font-size: 25px;
+    }
+    .main-right-heading{
+    font-size: 55px;
+    }
+    .sub-right-heading{
+    font-size: 23px;
+    }
+    .input{
+    height: 45px;
+    }
+    input{
+    font-size: 16px;
+    }
+    .input img{
+        width: 20px;
+    }
+
 }
 
 
