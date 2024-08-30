@@ -1065,9 +1065,6 @@ form input[type=submit]{
 
 
 @media screen and (max-width: 1000px){
-    .container > div{
-        border: 2px solid red;
-    }
     .nav-links{
     width: 40vw;
     }
@@ -1081,7 +1078,6 @@ form input[type=submit]{
 
 @media screen and (max-width: 950px){
     .container > div{
-        border: 2px solid green;
         padding: 10px 20px;
     }
     .hero .hero-right img{
@@ -1170,7 +1166,6 @@ form input[type=submit]{
         width: 100%;flex-direction: column;
         gap: 20px;
     }
-
 }
 
 @media screen and (max-width: 768px){
