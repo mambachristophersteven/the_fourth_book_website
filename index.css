@@ -81,6 +81,12 @@ a{
     font-family: ralewayXBold;
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
 .container{
     min-height: 100vh;
     width: 100vw;
@@ -1173,13 +1179,12 @@ form input[type=submit]{
 }
 
 @media screen and (max-width: 768px){
+    .container{
+        gap: 20px;
+    }
     .container > div{
         border: 2px solid blue;
         padding: 10px 15px;
-    }
-    .navbar{
-        position: fixed;
-        background: white;
     }
     .nav-links, .contact-btn button{
         display: none;
