@@ -174,6 +174,10 @@ a{
     text-transform: capitalize;
 }
 
+.contact-btn img{
+    display: none;
+}
+
 .hero{
     background: url(./assets/images/hero-bg.png);
     background-position: center;
@@ -1171,5 +1175,25 @@ form input[type=submit]{
 @media screen and (max-width: 768px){
     .container > div{
         border: 2px solid blue;
+        padding: 10px 15px;
+    }
+    .navbar{
+        position: fixed;
+        background: white;
+    }
+    .nav-links, .contact-btn button{
+        display: none;
+    }
+    .contact-btn img{
+        display: flex;
+        cursor: pointer;
+    }
+    .hero{
+        flex-direction: column;
+    }
+    .hero .hero-left{
+        width: 100%;
+        align-items: center;
+        text-align: center;
     }
 }
