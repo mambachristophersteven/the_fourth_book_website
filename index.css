@@ -1185,7 +1185,6 @@ form input[type=submit]{
         align-self: center;
     }
     .container > div{
-        border: 2px solid blue;
         padding: 10px 15px;
     }
     .nav-links, .contact-btn button{
@@ -1198,6 +1197,7 @@ form input[type=submit]{
     .hero{
         flex-direction: column;
         gap: 30px;
+        align-items: center;
     }
     .hero .hero-left{
         width: 100%;
@@ -1209,11 +1209,29 @@ form input[type=submit]{
     }
     .facts{
         justify-content: space-between;
+        gap: 0;
         width: 100%;
-        
+        padding: 0;
+        align-items: flex-end;
     }
     .facts >div{
-        width: 30vw;
-        border: 2px solid red;
+        flex-direction: column;
+        align-items: center;
+        width: 30%;
     }
+    .facts >div:first-child{
+        align-self: flex-start;
+        align-items: flex-start;
+        width: fit-content;
+    }
+    .hero .hero-right img{
+        width: 90vw;
+    }
+    .vision{
+        padding: 50px 0px;
+    } 
+    .vision .section-text{
+        padding-bottom: 20px;
+    }
+    
 }
