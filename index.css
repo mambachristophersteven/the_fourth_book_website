@@ -257,6 +257,7 @@ a{
     font-family: ralewayBold;
     text-transform: capitalize;
     font-size: 19px;
+    text-align: center;
 }
 
 .hero .hero-right img{
@@ -344,10 +345,12 @@ a{
     gap: 20px;
     align-items: flex-end;
     text-align: right;
+    width: fit-content;
 }
 
 .mission-text .section-text{
     text-align: right;
+    /* width: 90%; */
 }
 
 .checks{
@@ -399,6 +402,7 @@ a{
     font-size: 20px;
     text-transform: capitalize;
     color: white;
+    text-align: center;
 }
 
 .white-maxi-heading{
@@ -406,6 +410,7 @@ a{
     font-size: 80px;
     text-transform: capitalize;
     color: white;
+    text-align: center;
 }
 
 .white-macro-heading{
@@ -413,6 +418,7 @@ a{
     font-size: 22px;
     text-transform: uppercase;
     color: white;
+    text-align: center;
 }
 
 .values{
@@ -1058,10 +1064,79 @@ form input[type=submit]{
 }
 
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1000px){
     .container > div{
         border: 2px solid red;
     }
+    .nav-links{
+    width: 40vw;
+    }
 }
 
-@media screen and (max-width: 768px){}
+@media screen and (max-width: 950px){
+    .container > div{
+        border: 2px solid green;
+        padding: 10px 20px;
+    }
+    .hero .hero-right img{
+        width: 50vw;
+    }
+    .mission-text .section-text{
+        text-align: right;
+        width: 90%;
+    }
+    .sub{
+        width: 80%;
+    }
+    .facts{
+        gap: 20px;
+    }
+    .mission-left img{
+        width: 40vw;
+    }
+    .motto{
+        min-height: 200px;
+    }
+    .values-boxes >div{
+        width: 45%;
+        height: 350px;
+        margin-bottom: 20px;
+        padding: 50px 20px;
+    }
+    .two-approach >div{
+        height: 320px;
+    }
+    .section-content{
+        width: 80%;
+    }
+    .section-text{
+        width: 80%;
+    }
+    .contact{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .contact-left{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        min-height: 500px;
+    }
+    .contact-left-top{
+        align-items: center;
+        width: inherit;
+    }
+    .details >div{
+        flex-direction: column;
+        width: 80vw;
+    }
+    .detail-right{
+        gap: 5px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .container > div{
+        border: 2px solid blue;
+    }
+}
