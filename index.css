@@ -441,7 +441,7 @@ a{
 }
 
 .values-boxes >div{
-    width: 20%;
+    width: 22%;
     padding: 80px 20px;
     display: flex;
     flex-direction: column;
@@ -980,6 +980,25 @@ form input[type=submit]{
     }
     .white-macro-heading{
         font-size: 20px;
+    }
+    .section-content{
+        font-family: ralewayMid;
+        font-size: 18px;
+    }
+    .value-name{
+        font-size: 25px;
+    }
+    .value-text{
+        font-size: 17px;
+    }
+    .approach .approach-top img{
+        width: 35px;
+    }
+    .approach .approach-top .approach-name{
+        font-size: 27px;
+    }
+    .approach-text{
+        font-size: 17px;
     }
 }
 
