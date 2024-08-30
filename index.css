@@ -1166,6 +1166,11 @@ form input[type=submit]{
     input{
         width: 95%;
     }
+    .footer-bottom{
+        width: 100%;flex-direction: column;
+        gap: 20px;
+    }
+
 }
 
 @media screen and (max-width: 768px){
