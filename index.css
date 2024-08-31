@@ -1227,10 +1227,16 @@ form input[type=submit]{
         flex-direction: column;
         align-items: center;
         width: 30%;
+        width: fit-content;
     }
     .facts >div:first-child{
         align-self: flex-start;
         align-items: flex-start;
+        width: fit-content;
+    }
+    .facts >div:last-child{
+        align-self: flex-end;
+        align-items: flex-end;
         width: fit-content;
     }
     .hero .hero-right img{
