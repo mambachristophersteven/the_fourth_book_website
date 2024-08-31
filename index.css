@@ -1277,6 +1277,9 @@ form input[type=submit]{
         padding: 10px 10px;
         justify-content: center;
     }
+    .approach-text{
+        width: 90%;
+    }
     .contact-right-headings{
         align-items: center;
         text-align: center;
