@@ -1152,6 +1152,7 @@ form input[type=submit]{
     }
     .contact-right-headings{
         align-items: center;
+        text-align: center;
     }
     form{
         align-items: center;
@@ -1275,5 +1276,42 @@ form input[type=submit]{
         height: 250px;
         padding: 10px 10px;
         justify-content: center;
+    }
+    .contact-right-headings{
+        align-items: center;
+        text-align: center;
+    }
+    .app-right img{
+        display: none;
+    }
+    .app-left{
+        display: flex;
+        align-items: center;
+    }
+    .app-content{
+        align-items: center;
+        text-align: center;
+    }
+    .app-left .headings{
+        align-items: center;
+    }
+    .app-content .section-text{
+        text-align: center;
+        width: 90%;
+    }
+    .app-content .checks{
+        text-align: center;
+        align-items: center;
+    }
+    .footer-top img{
+        width: 40vw;
+    }
+    .footer-bottom{
+        text-align: center;
+    }
+    .socials{
+        width: 50vw;
+        gap: 0;
+        justify-content: space-between;
     }
 }
