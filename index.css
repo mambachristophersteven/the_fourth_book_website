@@ -1195,6 +1195,9 @@ form input[type=submit]{
     }
     .navbar{
         border-bottom: 1px solid gainsboro;
+        position: fixed;
+        z-index: 3;
+        background: white;
     }
     .nav-links, .contact-btn button{
         display: none;
@@ -1207,6 +1210,7 @@ form input[type=submit]{
         flex-direction: column;
         gap: 30px;
         align-items: center;
+        margin-top: 90px;
     }
     .hero .hero-left{
         width: 100%;
