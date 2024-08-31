@@ -1344,7 +1344,6 @@ form input[type=submit]{
         /* display: none; */
         position: fixed;
         color: white;
-        border: 1px solid red;
         gap: 10vh;
     }
     .close-btn{
