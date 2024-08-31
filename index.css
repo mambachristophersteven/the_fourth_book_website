@@ -1190,6 +1190,7 @@ form input[type=submit]{
         align-items: center;
         align-self: center;
     }
+    
     .container > div{
         padding: 10px 15px;
     }
