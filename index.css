@@ -1189,6 +1189,9 @@ form input[type=submit]{
     .container > div{
         padding: 10px 15px;
     }
+    .navbar{
+        border-bottom: 1px solid gainsboro;
+    }
     .nav-links, .contact-btn button{
         display: none;
     }
