@@ -1341,7 +1341,7 @@ form input[type=submit]{
         background-attachment: fixed;
         padding: 150px 30px;
         color: var(--white-color);
-        /* display: none; */
+        display: none;
         position: fixed;
         color: white;
         gap: 10vh;
@@ -1378,9 +1378,13 @@ form input[type=submit]{
         color: var(--brown);
         font-size: 20px;
         font-family: ralewayBold;
+        text-transform: capitalize;
         border: none;
         outline: none;
         border-radius: 7px;
+    }
+    .mobile-contact button a{
+        color: #571217;
     }
     .mobile-motto{
         font-size: 25px;
