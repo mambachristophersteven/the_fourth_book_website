@@ -1383,4 +1383,25 @@ form input[type=submit]{
         outline: none;
         border-radius: 7px;
     }
+    .mobile-motto{
+        font-size: 25px;
+        font-family: quantify;
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .mobile-logo{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .mobile-logo-name{
+        font-size: 21px;
+        font-family: interBold;
+        text-transform: uppercase;
+    }
+    .mobile-logo img{
+        width: 17vw;
+    }
 }
