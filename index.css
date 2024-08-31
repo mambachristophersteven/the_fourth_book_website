@@ -1056,7 +1056,6 @@ form input[type=submit]{
         width: 140px;
         height: 40px;
         font-size: 16px;
-
     }
     .app-buttons a button{
         width: 140px;
@@ -1190,7 +1189,7 @@ form input[type=submit]{
         align-items: center;
         align-self: center;
     }
-    
+
     .container > div{
         padding: 10px 15px;
     }
