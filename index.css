@@ -927,6 +927,10 @@ form input[type=submit]{
     text-transform: capitalize;
 }
 
+.mobile-menu{
+    display: none;
+}
+
 @media screen and (max-width: 1370px){
     .container >div{
         padding: 10px 40px;
@@ -1320,4 +1324,5 @@ form input[type=submit]{
         gap: 0;
         justify-content: space-between;
     }
+    
 }
