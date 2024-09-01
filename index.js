@@ -34,3 +34,20 @@ mobileMission.addEventListener('click',()=>{
 mobileHome.addEventListener('click',()=>{
     activeMenu.style.display= "none";
 })
+
+function SendMessage(){
+    (function(){
+        emailjs.init(""); //Account public key
+    })();
+
+    var serviceID = "";  //Email service ID
+    var templateID = ""; //Email Template ID
+
+    var params = {
+        senderName: document.querySelector("#name").value,
+        senderMail: document.querySelector("#email").value,
+        senderPhone: document.querySelector("#telephone").value,
+        senderTopic: document.querySelector("#topic").value,
+        senderMessage: document.querySelector("#message").value,
+    }
+}
