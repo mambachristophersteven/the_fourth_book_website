@@ -795,7 +795,7 @@ input{
     background: transparent;
 }
 
-.form input[type=submit]{
+.form button{
     border: none;
     outline: none;
     width: 170px;
