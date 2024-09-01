@@ -733,7 +733,7 @@ a{
     text-transform: capitalize;
 }
 
-form{
+.form{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -795,7 +795,7 @@ input{
     background: transparent;
 }
 
-form input[type=submit]{
+.form input[type=submit]{
     border: none;
     outline: none;
     width: 170px;
@@ -1050,7 +1050,7 @@ form input[type=submit]{
     .one-input .input textarea{
         font-size: 16px;
     }
-    form input[tyoe-submit]{
+    .form input[tyoe-submit]{
         width: 140px;
         height: 40px;
         font-size: 16px;
@@ -1155,7 +1155,7 @@ form input[type=submit]{
         align-items: center;
         text-align: center;
     }
-    form{
+    .form{
         align-items: center;
         gap: 20px;
         width: 100%;

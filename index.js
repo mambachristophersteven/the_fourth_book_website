@@ -37,11 +37,11 @@ mobileHome.addEventListener('click',()=>{
 
 function SendMessage(){
     (function(){
-        emailjs.init(""); //Account public key
+        emailjs.init("jnY9MMHZ-9EO2xtvF"); //Account public key
     })();
 
     var serviceID = "service_qqdqf35";  //Email service ID
-    var templateID = ""; //Email Template ID
+    var templateID = "template_9zitqgb"; //Email Template ID
 
     var params = {
         senderName: document.querySelector("#name").value,
