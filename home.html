@@ -41,7 +41,7 @@
                 <a href="#app" id="mobile-app">get app</a>
             </div>
             <div class="mobile-contact">
-                <button><a href="#contact">contact us</a></button>
+                <button><a href="#contact" id="mobile-button">contact us</a></button>
             </div>
             <div class="mobile-motto">
                 <p class="mobile-logo-text">empowering africa's diaspora</p>
@@ -370,7 +370,7 @@
             };
             emailjs.send(serviceID, templateID, params)
             .then( res=> {
-                alert('We have received your message.' + params['senderName'] + '!');
+                alert('We have received your message, ' + params['senderName'] + '!');
             })
         }
     </script>

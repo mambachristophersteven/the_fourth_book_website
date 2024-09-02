@@ -6,6 +6,7 @@ const mobileMission = document.getElementById('mobile-mission');
 const mobileImpact = document.getElementById('mobile-impact');
 const mobileApproach = document.getElementById('mobile-approach');
 const mobileApp = document.getElementById('mobile-app');
+const mobileButton = document.getElementById('mobile-button');
 
 menuButton.addEventListener('click',()=>{
     activeMenu.style.display= "flex";
@@ -35,3 +36,6 @@ mobileHome.addEventListener('click',()=>{
     activeMenu.style.display= "none";
 })
 
+mobileButton.addEventListener('click',()=>{
+    activeMenu.style.display= "none";
+})
